@@ -10,8 +10,11 @@ const routes = {
   route2: () => {}
 };
 
-const siteOptions1 = { host: 'exampl.com' };
-const siteOptions2 = { host: 'exampl2.com' };
+const siteOptions1 = {
+  host: 'exampl.com',
+  methods: ['GET', 'POST']
+};
+const siteOptions2 = { host: 'exampl2.com', methods: ['GET'] };
 
 const site1 = new Site()
   .options(siteOptions)
