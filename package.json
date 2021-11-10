@@ -1,6 +1,6 @@
 {
   "name": "@romchik38/http-servers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a few simple http servers",
   "main": "index.js",
   "directories": {
