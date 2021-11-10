@@ -1,6 +1,6 @@
 # singleRoute
 
-## Особенности сервара:
+## Особенности сервера:
   - один возможный роут
   - передает в роут req и res
   - ожидает объект { statusCode, response }
@@ -21,10 +21,10 @@
 2. Создать сервер
   const server = createServer();
 
-3. Методы
-  server.router(name, router)     - добавляет маршрут
-  server.listen(port, address)    - запускает сервер
-  server.close()                  - останавливает сервер
+3. Методы  
+  * server.router(name, router)     - добавляет маршрут
+  * server.listen(port, address)    - запускает сервер
+  * server.close()                  - останавливает сервер
 
 ## Ошибки
 
