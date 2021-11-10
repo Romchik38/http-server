@@ -1,5 +1,5 @@
 {
-  "name": "http-servers",
+  "name": "@romchik38/http-servers",
   "version": "1.0.0",
   "description": "a few simple http servers",
   "main": "index.js",

@@ -16,10 +16,10 @@
 ## Доступные методы
 
 1. Импортировать
-  const createServer = require('./singleRoute.js');
+  const { singleRoute } = require('@romchik38/http-servers');
 
 2. Создать сервер
-  const server = createServer();
+  const server = singleRoute();
 
 3. Методы  
   * server.router(name, router)     - добавляет маршрут
