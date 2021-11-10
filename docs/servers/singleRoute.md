@@ -34,7 +34,7 @@
 ```javascript
 'use strict';
 
-const createServer = require('./singleRoute.js');
+const { singleRoute } = require('@romchik38/http-servers');
 
 const makeResponse = (num, str) => ({
   statusCode: num,
@@ -49,7 +49,7 @@ const router = async ({ req, res }) => {
   return makeResponse(404, 'url not found');
 };
 
-const server = createServer();
+const server = singleRoute();
 server.router('hello', router)
   .listen(8000, '127.0.0.1');
 ```
